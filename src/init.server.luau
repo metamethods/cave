@@ -91,8 +91,8 @@ toolbarButton.Click:Connect(function()
 					local block = Instance.new("Part")
 					block.Size = Vector3.new(SPACING, SPACING, SPACING)
 					block.Position = edge
-					block.Material = Enum.Material.Rock
-					block.BrickColor = BrickColor.new("Dark stone grey")
+					block.Material = Enum.Material.Slate
+					block.BrickColor = BrickColor.new("Silver flip/flop")
 					block.Anchored = true
 					block.Name = "Stone"
 
